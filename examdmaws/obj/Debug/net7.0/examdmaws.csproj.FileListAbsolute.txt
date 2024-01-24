@@ -1,8 +1,0 @@
-C:\Users\Admin\source\repos\examdmaws\examdmaws\obj\Debug\net7.0\examdmaws.csproj.AssemblyReference.cache
-C:\Users\Admin\source\repos\examdmaws\examdmaws\obj\Debug\net7.0\examdmaws.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Admin\source\repos\examdmaws\examdmaws\obj\Debug\net7.0\examdmaws.AssemblyInfoInputs.cache
-C:\Users\Admin\source\repos\examdmaws\examdmaws\obj\Debug\net7.0\examdmaws.AssemblyInfo.cs
-C:\Users\Admin\source\repos\examdmaws\examdmaws\obj\Debug\net7.0\examdmaws.csproj.CoreCompileInputs.cache
-C:\Users\Admin\source\repos\examdmaws\examdmaws\obj\Debug\net7.0\examdmaws.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Admin\source\repos\examdmaws\examdmaws\obj\Debug\net7.0\examdmaws.RazorAssemblyInfo.cache
-C:\Users\Admin\source\repos\examdmaws\examdmaws\obj\Debug\net7.0\examdmaws.RazorAssemblyInfo.cs
