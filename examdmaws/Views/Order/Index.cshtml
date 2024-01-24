@@ -1,0 +1,40 @@
+﻿namespace examdmaws.Views.Order
+{
+<!-- Views/Order/Index.cshtml -->
+@model IEnumerable<Order>
+
+<h2>Order History</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>Order ID</th>
+            <th>Item Code</th>
+            <th>Item Name</th>
+            <th>Quantity</th>
+            <th>Order Delivery</th>
+            <th>Order Address</th>
+            <th>Phone Number</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var order in Model)
+        {
+            <tr>
+                <td>@order.OrderId</td>
+                <td>@order.ItemCode</td>
+                <td>@order.ItemName</td>
+                <td>@order.ItemQty</td>
+                <td>@order.OrderDelivery.ToShortDateString()</td>
+                <td>@order.OrderAddress</td>
+                <td>@order.PhoneNumber</td>
+                <td>
+                    <a asp-action="EditOrder" asp-route-id="@order.OrderId">Edit</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+}
